@@ -1,14 +1,14 @@
 # dotnet-lcssolution
 Download the solution and run in Visual Studio 2015.
-Once the solution is able to  runn successfully go to swagger for testing scenarios. 
+Once the solution is running successfully, please go to swagger for testing different scenarios. 
   Swagger End point
   http://localhost:8080/swagger
 You can use Postman as well. 
 
 End Point
 
-POST http://localhost:8080/api/LCS/FindLCS  - will accept multiple strings and stafies all the 
-given requirements.
+POST http://localhost:8080/api/LCS/FindLCS  - will accept multiple strings and stafies all the given requirements.
+
 POST http://localhost:8080/api/LCS/DynamicLCS - Will accept only two strings. Works with O(n2) 
 
 complexity using dynamic programming.
