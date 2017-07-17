@@ -9,9 +9,7 @@ End Point
 
 POST http://localhost:8080/api/LCS/FindLCS  - will accept multiple strings and stafies all the given requirements.
 
-POST http://localhost:8080/api/LCS/DynamicLCS - Will accept only two strings. Works with O(n2) 
-
-complexity using dynamic programming.
+POST http://localhost:8080/api/LCS/DynamicLCS - Will accept only two strings. Works with O(n2) complexity using dynamic programming.
 
 Test Cases
 
