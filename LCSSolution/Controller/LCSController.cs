@@ -72,7 +72,7 @@ namespace LCSExercise
                     var lcsObject = new LCS();
                     //Assign string set
                     lcsObject.Values = strList.ToArray();
-                    return new HttpResponseMessage()
+                    return new HttpResponseMessage(HttpStatusCode.OK)
                     {
                         Content = new ObjectContent<LCSResponse>(
                             lcsObject.FindLCS(),		        // What we are serializing 
